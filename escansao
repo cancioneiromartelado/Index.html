@@ -55,15 +55,6 @@
           <b>Sílabas gramaticais</b> dividem palavras independentemente; <b>sílabas poéticas</b> permitem fusões (<i>sinalefa</i>, <i>elisão</i>, <i>sinérese</i>) e a contagem vai <u>até a sílaba tônica da última palavra</u>.
         </div>
       </section>
-      <aside class="card">
-        <div class="section-title">Léxico de prosódia (opcional)</div>
-        <div class="muted" style="margin-bottom:8px;">Cole JSON no formato: { "palavra": { "syllables": ["...","..."], "stress": 0_based } }.
-          <br/>As chaves devem ser <b>minúsculas</b> (com acentos). Salvo em <span class="kbd">localStorage</span>.</div>
-        <textarea id="lexiconText" placeholder='{"amor":{"syllables":["a","mor"],"stress":1}}'></textarea>
-        <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;">
-          <button id="btnLoadLexicon">Carregar léxico</button>
-          <button id="btnClearLexicon">Limpar léxico</button>
-          <span id="lexiconStatus" class="muted">Nenhum léxico carregado.</span>
         </div>
         <div class="section-title" style="margin-top:16px;">Classificações alvo</div>
         <div class="grid grid-2">
